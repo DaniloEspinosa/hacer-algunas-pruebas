@@ -15,3 +15,8 @@ La idea de este repositorio es hacer un repaso general de markdown y ramas en gi
     - git branch -M main
     - git remote add origin https://github.com/DaniloEspinosa/hacer-algunas-pruebas.git
     - git push -u origin main
+- Crear una rama developer para no afectar la rama de produccion en este caso la main
+    - git checkout -b developer
+- Subir la rama nueva rama al repositorio
+    - git push -u origin developer
+
