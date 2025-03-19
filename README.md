@@ -23,3 +23,10 @@ La idea de este repositorio es hacer un repaso general de markdown y ramas en gi
     - git add . (el el nombre del fichero)
     - git commit -m "Descripción del cambio"
     - git push origin developer
+- Crear ramas de características o correcciones a partir de developer
+    - git checkout -b feature-nueva-funcionalidad developer
+    - Una vez realizados los cambios:
+        - git add .
+        - git commit -m "Implementé la nueva funcionalidad ..."
+        - git push origin feature-nueva-funcionalidad
+        - Ahora puedes hacer un Pull Request (PR) desde feature-nueva-funcionalidad hacia developer.
