@@ -30,3 +30,8 @@ La idea de este repositorio es hacer un repaso general de markdown y ramas en gi
         - git commit -m "Implementé la nueva funcionalidad ..."
         - git push origin feature-nueva-funcionalidad
         - Ahora puedes hacer un Pull Request (PR) desde feature-nueva-funcionalidad hacia developer.
+- Fusionar developer con main cuando sea estable
+    - Una vez que developer tenga los cambios estables y aprobados, puedes fusionarlos con main:
+        - git checkout main
+        - git merge developer
+        - git push origin main
