@@ -1,8 +1,8 @@
-## HACER ALGUNAS PRUEBAS
+# REPASO MARKDOWN Y RAMAS GIT - GITHUB
 
 La idea de este repositorio es hacer un repaso general de markdown y ramas en git y github
 
-### Pasos a seguir en un nuevo proyecto
+## Pasos a seguir en un nuevo proyecto
 
 - Crear el proyecto
 - No olvidar de hacer el archivo .gitignore
@@ -35,3 +35,10 @@ La idea de este repositorio es hacer un repaso general de markdown y ramas en gi
         - git checkout main
         - git merge developer
         - git push origin main
+
+### Resumiendo el flujo de trabajo en Git
+-1️⃣ Crear la rama developer si no existe (git checkout -b developer).
+-2️⃣ Trabajar en developer, hacer commit y push regularmente.
+-3️⃣ Para nuevas funciones, crear ramas desde developer.
+-4️⃣ Hacer Pull Request de las ramas de características a developer.
+-5️⃣ Cuando developer esté estable, fusionarlo con main.
