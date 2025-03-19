@@ -19,4 +19,7 @@ La idea de este repositorio es hacer un repaso general de markdown y ramas en gi
     - git checkout -b developer
 - Subir la rama nueva rama al repositorio
     - git push -u origin developer
-
+- Al realizar algun cambio:
+    - git add . (el el nombre del fichero)
+    - git commit -m "Descripción del cambio"
+    - git push origin developer
